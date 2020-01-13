@@ -3,6 +3,12 @@
 	justify-content: space-between;
 	margin-bottom: 30px;
 	align-items: center;
+	position: fixed;
+	padding-top: 40px;
+	width: 90%;
+	right: 5px;
+	left: 20px;
+	opacity: 1;
 }
 
 .header .header__title {
@@ -14,6 +20,7 @@
 	font-size: 20px;
 	margin-left: 20px;
 	cursor: pointer;
+	padding-right: -10px;
 }
 
 .header .header__header-column {

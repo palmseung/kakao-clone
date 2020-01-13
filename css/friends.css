@@ -1,6 +1,10 @@
+.friends__header {
+	padding-top: 85px;
+}
+
 .friends .friends__plus {
 	margin-top: 20px;
-	padding: 20px 0px;
+	padding: 20px 0px 10px;
 	border-top: 1px solid #f7f7f7;
 	border-bottom: 1px solid #f7f7f7;
 	margin-bottom: 20px;

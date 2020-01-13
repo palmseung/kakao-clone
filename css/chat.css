@@ -1,0 +1,36 @@
+.chats-body {
+	background-image: url('../images/blue-snow.png');
+}
+
+.chat__write {
+	position: fixed;
+	bottom: 20px;
+	width: 80%;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #fcfcfc;
+	padding: 20px 50px;
+	border-radius: 40px;
+	margin: 0 auto;
+	left: 0px;
+	right: 0px;
+	box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+		0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+
+.chat__write-column:nth-child(2) {
+	width: 80%;
+}
+
+.chat__write-column input {
+	padding: 10px 10px;
+	width: 100%;
+	border: none;
+	font-size: 14px;
+}
+
+.chat__write-column input:focus {
+	outline: none;
+}

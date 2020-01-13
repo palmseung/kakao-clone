@@ -11,7 +11,7 @@
 			crossorigin="anonymous"
 		></script>
 	</head>
-	<body>
+	<body class="chats-body">
 		<div class="status-bar">
 			<div class="status-bar__column">
 				<spanp class="status-bar__clock">11:11</spanp>
@@ -61,6 +61,32 @@
 						</div>
 					</div>
 				</li>
+				<li class="incoming-message message">
+					<img src="images/gunhoo.png" class="g-avatar message" />
+					<div class="message__content">
+						<span class="message__author">Best Friend</span>
+						<div class="message__bubble">
+							Congrats,I love you
+						</div>
+					</div>
+					<span class="message__timestamp"></span>
+				</li>
+				<li class="incoming-message message">
+					<span class="message__timestamp"></span>
+					<div class="message__content">
+						<div class="message__bubble">
+							Thank you
+						</div>
+					</div>
+				</li>
+				<li class="incoming-message message">
+					<span class="message__timestamp"></span>
+					<div class="message__content">
+						<div class="message__bubble">
+							Thank you
+						</div>
+					</div>
+				</li>
 			</ul>
 		</main>
 		<div class="chat__write">
@@ -68,7 +94,11 @@
 				<i class="far fa-plus-square"></i>
 			</div>
 			<div class="chat__write-column">
-				<input type="text" placeholder="Send message" class="chat__write-input/>
+				<input
+					type="text"
+					placeholder="Send message"
+					class="chat__write-input"
+				/>
 			</div>
 			<div class="chat__write-column">
 				<span class="chat__write-icon">
