@@ -1,5 +1,7 @@
-.friends__header {
-	padding-top: 85px;
+.friends-body .status-bar,
+.friends-body .header {
+	background-color: white;
+	opacity: 1;
 }
 
 .friends .friends__plus {

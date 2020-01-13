@@ -4,6 +4,7 @@
 	display: flex;
 	align-items: center;
 	margin-left: 10px;
+	justify-content: first baseline;
 }
 
 .more__btn-list .more__btn,
@@ -30,7 +31,8 @@
 	margin-bottom: 20px;
 }
 
-.suggestion .suggestion__title {
+.suggestion .suggestion__title,
+.more__btn-title {
 	font-size: 12px;
 	margin-top: 15px;
 }
@@ -42,9 +44,20 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	width: 40px;
+	height: 40px;
+}
+
+.more__btn-icon {
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
 }
 
 .suggestion__i i {
-	font-size: 28px;
+	font-size: 30px;
 	color: white;
 }

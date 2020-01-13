@@ -1,4 +1,6 @@
-.chats-body {
+.chat-body,
+.chat-body .status-bar,
+.chat-body .header {
 	background-image: url('../images/blue-snow.png');
 }
 

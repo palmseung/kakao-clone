@@ -5,10 +5,10 @@
 	align-items: center;
 	position: fixed;
 	padding-top: 40px;
-	width: 90%;
-	right: 5px;
-	left: 20px;
+	padding-bottom: 20px;
+	width: 100%;
 	opacity: 1;
+	background-color: white;
 }
 
 .header .header__title {
